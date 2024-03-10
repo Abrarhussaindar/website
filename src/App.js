@@ -27,6 +27,7 @@ const MainLayout = () => {
       <Navbar />
       {/* <SecondaryNavbar /> */}
       <Outlet />
+      <hr/>
       <Footer />
     </div>
   );

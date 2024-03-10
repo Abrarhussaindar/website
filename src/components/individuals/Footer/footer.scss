@@ -1,0 +1,46 @@
+.footerContainer{
+    .footerWrapper{
+        padding: 30px;
+    
+        display: flex;
+        justify-content: space-between;
+
+        .footerDetails{
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            .brandDetails{
+                display: flex;
+                flex-direction: column;
+                width: 400px;
+                gap: 20px;
+                img{
+                    width: 250px;
+                    height: 150px;
+                }
+                p{
+                    font-weight: 600;
+                }
+            }
+            .siteLinks{
+                width: 300px;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    list-style: none;
+                    li{
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+        .footerAddress{
+            width: 400px;
+            
+            p{
+                font-weight: 600;
+            }
+        }
+    }
+}
