@@ -1,7 +1,7 @@
 .navbarContainer{
-    a{
-        text-decoration: none;
-    }
+    
+    a{  text-decoration: none;  }
+
     .navbarWrapper{
         display: flex;
         justify-content: space-between;
@@ -40,6 +40,20 @@
         }
         
     }
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    z-index: 999999999999;
+    background: url("../../../images/bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.relative{
+    position: relative;
 }
 
 // @media screen and (width <= 440px) {}
