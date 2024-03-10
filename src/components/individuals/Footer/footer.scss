@@ -53,7 +53,9 @@
             .footerDetails{
                 flex-direction: column;
                 gap: 30px;
-                
+                .brandDetails{
+                    width: 350px;
+                }
             }
 
             .footerAddress{
