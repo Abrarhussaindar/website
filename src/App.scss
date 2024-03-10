@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    height: 100vh;
+    background: url("./images/bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
 }
