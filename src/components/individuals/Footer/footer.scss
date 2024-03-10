@@ -44,3 +44,29 @@
         }
     }
 }
+
+@media screen and (width <= 440px) {
+    .footerContainer{
+        .footerWrapper{
+            flex-direction: column;
+            gap: 30px;
+            .footerDetails{
+                flex-direction: column;
+                gap: 30px;
+                
+            }
+
+            .footerAddress{
+                width: 350px;
+            }
+        }
+    }
+}
+@media screen and (width <= 620px) {
+    .footerContainer{
+        .footerWrapper{
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+}
